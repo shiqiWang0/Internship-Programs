@@ -1,0 +1,17 @@
+*{padding: 0;margin: 0}
+a{text-decoration: none;}
+.list li a{color: #ffffff;}
+.header{width: 1000px;height: 100px;overflow: hidden;margin: 0px auto;background-color:rgba(0,0,0,0.5);}
+.logo{margin: 30px 10px}
+.nav{height:72px;float: right;margin: 30px 30px;}
+.list{list-style-type: none;overflow: hidden;float: left;display: none}
+.list li{float: left;padding: 0 30px}
+.button{float: left}
+.line{width:30px;height: 3px;background-color: #ffffff;margin: 5px auto;display: block}
+.footer{width: 1000px;height: 200px;margin: 0px auto}
+.footer ul{list-style-type: none;width: 300px;overflow: hidden;margin: 0 auto}
+.footer li{width: 50px;height:50px;float:left;margin: 40px 10px;background-image:url("../img/social.jpg")}
+.footer li:nth-child(1){background-position: -95px -195px;}
+.footer li:nth-child(2){background-position: -560px -195px;}
+.footer li:nth-child(3){background-position: -675px -195px;}
+.footer p{width: 300px;margin: 0 auto}

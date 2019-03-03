@@ -1,0 +1,37 @@
+.chy_main {
+
+    background: black;
+    position: relative;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: left;
+    text-indent: 2em;
+}
+.chy_main ul {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.chy_main .chy_contant .chy_scroll {
+    overflow: hidden;
+}
+.chy_main .chy_contant .chy_scroll div {
+    overflow: hidden;
+}
+.chy_main .chy_contant .chy_scroll div>img {
+    float: right;
+}
+
+.chy_footer {
+    color: white;
+    background: black;
+    height: 100px;
+    line-height: 100px;
+}
+.t1 {
+    background: purple;
+}

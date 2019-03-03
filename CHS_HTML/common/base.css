@@ -1,0 +1,277 @@
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+body,table,p,select,form,a,textarea,div {
+	font-family: Arial, SimSun;
+	color: #242424;
+}
+body {
+	background: url(../images/bodybg.gif) repeat-x top;
+	text-align: center;
+}
+
+ul,li,h1,h2,h3,h4,h5,h6{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration:none ;
+	color: #242424;
+}
+a:hover {
+	text-decoration:underline;
+	color: #FF0000;
+}
+img {
+	border:0px;
+}
+input,select{
+	font-size: 12px;
+	padding:1px 1px 0px 3px;
+	font-family: Arial, SimSun;
+	border-left:1px #526E8E solid;
+	border-top:1px #526E8E solid;
+	border-right:1px #BBD4EB solid;
+	border-bottom:1px #BBD4EB solid;
+	background: url(../images/loginbg_3.gif) repeat-x top;
+	margin-left:8px;
+	behavior: url(./common/focus.htc); 
+}
+textarea{
+	font-size: 12px;
+	padding:1px 1px 0px 3px;
+	font-family: Arial, SimSun;
+	border-left:1px #526E8E solid;
+	border-top:1px #526E8E solid;
+	border-right:1px #BBD4EB solid;
+	border-bottom:1px #BBD4EB solid;
+	margin-left:8px;
+	behavior: url(./common/focus.htc); 
+}
+.isnone{
+	border:0;
+	background: none;
+	margin-top:4px;
+}
+.wrapper{
+	width:990px;
+	text-align: left;
+	clear: both;
+	margin: 0 auto;
+}
+div h1{
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.fontred a {
+	text-decoration:none ;
+	color: #FF0000;
+}
+.fontred a:hover {
+	text-decoration:underline;
+}
+.fontwhite{
+	font-weight: bold;
+	color: #FFF;
+}
+.fontwhite a{
+	color: #FFF;
+}
+.fontwhite a:hover{
+	color: #FFE981;
+}
+.fontdarkblue a,.column_list li a{
+	color: #041370;
+}
+
+.fontdarkblue a:hover,.column_list li a:hover{
+	color: #FF0000;
+}
+.imgborder a{
+	border:1px solid #FFF;
+}
+.imgborder a:hover{
+	border:1px solid #FF0000;
+}
+.bg_transparent{
+	background-color:transparent;
+	background-image:none;
+}
+#headerdiv{
+	height: 243px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#headerdiv iframe{
+	height: 243px;
+	width: 1000px;
+}
+#header {
+	background: url(../images/toppic_1.jpg) no-repeat;
+	height: 70px;
+	width: 620px;
+	text-align: center;
+	padding: 130px 0 0 380px;
+	margin: 0 auto;
+}
+#header img {
+	display: block;
+	height: 68px;
+	width: 95px;
+	float: left;
+	margin-right: 35px;
+}
+#nav {
+	background: url(../images/navbg.gif) no-repeat;
+	height: 43px;
+	width: 990px;
+	padding-top:8px;
+}
+#nav_Ru,#nav_Ch{
+	margin-left: 20px;
+}
+#nav_Ch{
+	border-left: 1px solid #0CC3EB;
+	height:13px;
+}
+#nav_Ru li,#nav_Ch li{
+	float: left;
+	text-align: center;
+}
+#nav_Ch li{
+	font-size: 12px;
+	color: #FFF;
+	border-right: 1px solid #0CC3EB;
+	width: 105px;
+	font-weight: bold;
+}
+#nav_Ru li{
+	font-family: Arial;
+	font-size: 10px;
+	color: #083486;
+	letter-spacing: -1px;
+	width: 106px;
+	padding-top:6px;
+}
+#footerdiv{
+	height: 100px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#footerdiv iframe{
+	height: 100px;
+	width: 1000px;
+}
+#footer {
+	background: url(../images/footerbg.gif) no-repeat left top;
+	clear: both;
+	height: 100px;
+	width: 990px;
+	font-size: 12px;
+	color: #00156D;
+	text-align: center;
+	padding-top: 6px;
+}
+#footer ul {
+	width:560px;
+	border-left: 1px solid #0CC3EB;
+	height:16px;
+	margin:0 215px;
+}
+
+#footer ul li {
+	font-size: 12px;
+	color: #FFF;
+	border-right: 1px solid #0CC3EB;
+	width: 105px;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	padding-top:2px;
+}
+#footer .font_a {
+	color: #00156D;
+	margin: 12px 0;
+}
+#footer .font_b {
+	color: #668EA4;
+}
+#logindiv {
+	height: 43px;
+	clear: both;
+	text-align: right;
+}
+#logindiv iframe {
+	height: 33px;
+	width: 743px;
+}
+#loginbar {
+	height: 33px;
+	width: 643px;
+	background: url(../images/loginbg_1.gif) no-repeat left;
+	padding-left:100px;
+	font-size: 12px;
+}
+#loginbar h1 {
+	font-size: 12px;
+	height: 19px;
+	line-height:1.2;
+	padding:14px 0 0 40px;
+	float: left;
+	background: url(../images/loginicon_1.gif) no-repeat left bottom;
+	color: #242424;
+	display: block;
+}
+#loginbar input{
+	margin:8px 5px 0 0;
+	width:95px;
+}
+#loginbar .login_but {
+	font-size: 11px;
+	font-weight: bold;
+	background: url(../images/loginicon_2.gif) no-repeat;
+	height: 18px;
+	width: 40px;
+	text-align: center;
+	border:0px;
+	cursor:hand;
+	margin-bottom:1px;
+	padding-top:1px;
+}
+#loginbar b {
+	font-weight: normal;
+	margin-left: 12px;
+}
+#loginbar ul {
+	margin-top: 10px;
+	width: 600px;
+	height: 20px;
+	float: right;
+}
+#loginbar li {
+	background: url(../images/icon.gif) no-repeat right -153px;
+	float: left;
+	margin-right: 10px;
+	padding:0 15px 0 0;
+	line-height:1.4;
+}
+#loginbar li a{
+	color: #000;
+	line-height:1.4;
+}
+#loginbar font {
+	color: #FF0000;
+	margin:0 5px;
+	font-size: 12px;
+	line-height:1.4;
+}
+#loginbar li font a{
+	color: #FF0000;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	line-height:1.2;
+}

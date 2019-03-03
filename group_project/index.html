@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Music</title>
+    <meta charset="UTF-8">
+    <meta name="王诗淇" content="1836821120@qq.com">
+    <meta name="流行音乐" CONTENT="流行音乐">
+    <meta name="keywords" CONTENT="流行,音乐">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/ghn-base.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/music.css"/>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".button").click(function(){
+                if($(".line").eq(1).css("display")=="block"){
+                    $(".line").eq(0).css({"transform":"rotate(45deg) translateY(5px)"});
+                    $(".line").eq(1).css({"display":"none"});
+                    $(".line").eq(2).css({"transform":"rotate(-45deg) translateY(-5px)"});
+                    $(".list").fadeIn("fast");
+                }
+                else{
+                    $(".line").eq(0).css({"transform":""});
+                    $(".line").eq(1).css({"display":""});
+                    $(".line").eq(2).css({"transform":""});
+                    $(".list").fadeOut("fast");
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <img class="logo" src="img/logo.png" alt=""/>
+        <div class="nav">
+            <ul class="list">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="index_wsq.html">民谣</a></li>
+                <li><a href="teamwork/first.html">复古音乐</a></li>
+                <li><a href="ghn-index.html">摇滚音乐</a></li>
+                <li><a href="yjq-shouye.html">流行音乐</a></li>
+                <li><a href="ghn-contact.html">联系</a></li>
+            </ul>
+            <div class="button">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="lunbo">
+                        <div id="myCarousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/instrunent3.jpg" alt="First slide">
+                                </div>
+                                <div class="item">
+                                    <img src="img/s1.jpg" alt="Second slide">
+                                </div>
+                                <div class="item">
+                                    <img src="img/s3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="index_wsq.html">民谣</a></li>
+                        <li><a href="teamwork/first.html">复古音乐</a></li>
+                        <li><a href="ghn-index.html">摇滚音乐</a></li>
+                        <li><a href="yjq-shouye.html">流行音乐</a></li>
+                        <li><a href="ghn-contact.html">联系</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="text1">
+        <H1>民谣</H1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                     <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chy2.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text1">
+        <H1>复古</H1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                     <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chy2.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text1">
+        <H1>流行</H1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/s1.jpg" alt=""/>
+                     <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chy2.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/chyimg.jpg" alt=""/>
+                    <p>歌手</p>
+                    <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <p>Copyright 2018 艺术展览模板</p>
+    </div>
+</body>
+</html>

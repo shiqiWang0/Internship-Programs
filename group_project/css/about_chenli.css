@@ -1,0 +1,89 @@
+.cl_bigbanner {
+    width: 100%;
+    height: 550px;
+    background: rgba(0,0,0,0.5 );
+}
+.cl_banner {
+
+    position: relative;
+}
+.cl_banner img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    border: 10px solid white;
+    box-shadow: 0px 8px 15px black;
+}
+.cl_banner img:nth-child(1){
+    left: 50px;
+}
+.cl_banner  img:nth-child(2){
+    left: 350px;
+}
+.cl_banner img:nth-child(3){
+    left: 650px;
+}
+.text {
+    z-index: 900;
+
+}
+/*陈粒banner结束*/
+/*陈粒正文开始*/
+.my_content {
+    background: rgba(0,0,0,0.5);
+}
+.my_content .cl_contant {
+    overflow: hidden;
+}
+.my_content .cl_contant .cl_left {
+    width: 700px;
+    text-align: left;
+    line-height: 30px;
+    float: left;
+}
+.my_content .cl_contant .cl_left>div,.my_content .cl_contant .cl_right>div {
+    margin: 30px 0px;
+}
+.my_content .cl_contant .cl_left .jbxx table {
+    width: 720px;
+}
+.my_content .cl_contant .cl_right {
+    float: right;
+    /*margin-top: 60px;*/
+    text-align: right;
+}
+.my_content .cl_contant .cl_right ul{
+    line-height: 30px;
+    height: 210px;
+    overflow: hidden;
+    margin:30px 0;
+
+}
+.my_content .cl_contant .cl_right ul li {
+    width: 300px;
+}
+.my_content .cl_contant .cl_right ul li a {
+    display: block;
+    float: left;
+    text-align: right;
+    color: white;
+}
+.my_content .cl_contant .cl_right ul li:hover {
+    background: white;
+    color: purple;
+}
+.my_content .cl_contant .cl_right ul li:hover a {
+    color: purple;
+}
+/*新闻结束*/
+.cl_contant .cl_right {
+    position: relative;
+}
+.cl_contant .cl_right .cl_pic {
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+/*陈粒页结束*/

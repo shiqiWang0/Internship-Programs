@@ -1,0 +1,175 @@
+body {
+    overflow-x: hidden;
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.my_header {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.my_header .tp-banner-container #black{
+    background: black;
+}
+.my_header #my_header_mini {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    line-height: 100px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.my_header #my_header_mini {
+    text-align: left;
+}
+/*Í·²¿½áÊø*/
+.my_content{
+    position: relative;
+}
+.my_content>img {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+.my_content>ul {
+    list-style-type: none;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    border-bottom: 5px solid purple;
+    padding: 10px 0;
+    box-sizing: border-box;
+    column-count: 4;
+
+
+}
+.my_content>ul li {
+    float: left;
+    margin: 10px;
+    position: relative;
+
+}
+.my_content>ul li img {
+    content: "";
+    background: url("../img/chenli.jpg");
+    width: 300px;
+    height: 250px;
+    background: black;
+}
+
+.my_content>ul li .my_back {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(128,0,128,0.5);
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    display: none;
+    text-indent: 25px;
+}
+.my_content .my_main {
+    margin: 50px 0;
+    padding: 50px 10px;
+}
+.my_content .my_main .my_text {
+    background: white;
+    color: #333333;
+    line-height:  30px;
+    margin-top: 50px;
+    padding-top: 25px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+}
+.my_content .my_main .my_text .my_left {
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+.my_content .my_main .my_text .my_left ul li {
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    margin: 20px 10px;
+    padding: 10px;
+}
+.my_content .my_main .my_text .my_left ul li img {
+    width: 150px;
+    height: 150px;
+
+}
+.my_content .my_main .my_text .my_left ul li p {
+    width: 400px;
+    float: right;
+}
+.my_content .my_main .my_text .my_left ul li p a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: purple;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+.my_content .my_main .my_text .my_left ul li p a:hover {
+    color: purple;
+    background: white;
+
+}
+/*ÕýÎÄ×ó±ßÍê³É*/
+.my_content .my_main .my_text .my_right {
+   width: 350px;
+    float: right;
+    line-height: 50px;
+}
+.my_content .my_main .my_text .my_right a {
+    color: #333333;
+}
+.my_content .my_main .my_text .my_right a:hover {
+    color: purple;
+}
+.my_content .my_main .my_text .my_right .my_title1 li {
+    width: 350px;
+}
+.my_content .my_main .my_text .my_right .my_title1 li span {
+    display: block;
+    float: right;
+}
+.my_content .my_main .my_text .my_right .my_title2 {
+    margin-top: 100px;
+}
+.my_content .my_main .my_text .my_right .my_title2 li{
+    background: #dddddd;
+    position: relative;
+    padding-left: 50px;
+}
+.my_content .my_main .my_text .my_right .my_title2 li:hover {
+    background: #cccccc;
+}
+.my_content .my_main .my_text .my_right .my_title2 li span {
+    display: block;
+    width:0;
+    height:0;
+    border-width:15px 0 15px 15px;
+    border-style:solid;
+    border-color:transparent transparent transparent #333;
+    position: absolute;
+    top: 10px;left: 10px;
+
+
+}
+
+

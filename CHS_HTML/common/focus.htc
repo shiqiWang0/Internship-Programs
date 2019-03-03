@@ -1,0 +1,12 @@
+<public:component>
+<public:attach event="onfocus" onevent="onfocusdo()" />
+<public:attach event="onblur" onevent="onblurdo()" />
+<script language="Jscript"> 
+function onfocusdo(){
+	style.background="#C6E7FD";
+}
+function onblurdo(){
+	style.background="";
+}
+</script>
+</public:component>

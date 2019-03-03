@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>shouye</title>
+    <link rel="stylesheet" href="css/yjq-base.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $(".progress-bar").animate({width:"100%"},1000);
+        })
+    </script>
+    <script>
+        $(function(){
+            $(".button").click(function(){
+                if($(".line").eq(1).css("display")=="block"){
+                    $(".line").eq(0).css({"transform":"rotate(45deg) translateY(5px)"});
+                    $(".line").eq(1).css({"display":"none"});
+                    $(".line").eq(2).css({"transform":"rotate(-45deg) translateY(-5px)"});
+                    $(".list").fadeIn("fast");
+                }
+                else{
+                    $(".line").eq(0).css({"transform":""});
+                    $(".line").eq(1).css({"display":""});
+                    $(".line").eq(2).css({"transform":""});
+                    $(".list").fadeOut("fast");
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<!--在这里添加外包，记得还要在自己CSS里面设置外包样式-->
+<div class="yu">
+    <div class="header">
+        <img class="logo" src="img/logo.png" alt=""/>
+        <div class="nav">
+            <ul class="list">
+                <li><a href="">首页</a></li>
+                <li><a href="index_wsq.html">民谣</a></li>
+                <li><a href="teamwork/first.html">复古音乐</a></li>
+                <li><a href="ghn-index.html">摇滚音乐</a></li>
+                <li><a href="yjq-shouye.html">流行音乐</a></li>
+                <li><a href="hbq/Home.html">俱乐部</a></li>
+            </ul>
+            <div class="button">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="head">
+            <a href="yjq-shouye.html">
+               <p class="p1">POP</p>
+               <p class="p2">MUSIC</p>
+            </a>
+        </div>
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/banner1.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="img/banner2.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="img/banner3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only"><</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">>/span>
+            </a>
+        </div>
+        <div class="san">
+            <div class="one">
+                <p class="dazi"><a href="yjq-Night.html">The White Night</a></p>
+                <p>Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis.
+                </p>
+                <span><a href="#">[...]</a></span>
+            </div>
+            <div class="one">
+                <p class="dazi"><a href="yjq-Fans.html">Tons of Fans</a></p>
+                <p>Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis.
+                </p>
+                <span><a href="#">[...]</a></span>
+            </div>
+            <div class="one">
+                <p class="dazi"><a href="yjq-Ever.html">Best DJ's Ever</a></p>
+                <p>Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis.
+                </p>
+                <span><a href="#">[...]</a></span>
+            </div>
+        </div>
+        <div class="two">
+            <div class="left">
+                <p class="biaoti">Latest Blog</p>
+               <div class="four">
+                   <img src="img/pic4.jpg">
+                       <div class="five">
+                           <p class="dazi"><a href="#">Dreaming With Us All Night</a></p>
+                           <p class="data"><a href="#">By Admin on December 01, 2012 with 01 Commnets</a></p>
+                           <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor <span>[...]<span></a></p>
+                       </div>
+               </div>
+                <div class="four">
+                    <img src="img/pic1.jpg">
+                    <div class="five">
+                        <p class="dazi"><a href="#">Welcome To Our Great Site</a></p>
+                        <p class="data"><a href="#">By Admin on December 01, 2012 with 01 Commnets</a></p>
+                        <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor <span>[...]<span></a></p>
+                    </div>
+                </div>
+                <div class="four">
+                    <img src="img/pic2.jpg">
+                    <div class="five">
+                        <p class="dazi"><a href="#">Stereosonic Is Back Just For You</a></p>
+                        <p class="data"><a href="#">By Admin on December 01, 2012 with 01 Commnets</a></p>
+                        <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor <span>[...]<span></a></p>
+                    </div>
+                </div>
+                <div class="four">
+                    <img src="img/pic3.jpg">
+                    <div class="five">
+                        <p class="dazi"><a href="#">Club Galaxy White Night Show</a></p>
+                        <p class="data"><a href="#">By Admin on December 01, 2012 with 01 Commnets</a></p>
+                        <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor <span>[...]<span></a></p>
+                    </div>
+                </div>
+               </div>
+            <div class="right">
+                <p class="biaoti">Latest Albums</p>
+                <div class="top"><img src="img/albums.png"></div>
+                <p class="biaoti">Upcoming Events</p>
+                <div class="buttom">
+                    <ul>
+                        <li><a href="#">Magic Island Ibiza</a></li>
+                        <li><a href="#">Bamboo Is Just For You</a></li>
+                        <li><a href="#">Every Hot Summer</a></li>
+                        <li><a href="#">Magic Island Ibiza</a></li>
+                        <li><a href="#">Bamboo Is Just For You</a></li>
+                        <li><a href="#">Every Hot Summer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <p>Copyright 2018 艺术展览模板</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.scroll{position: relative;width: 1000px;height: 500px;margin-bottom: 20px;;padding: 30px 0;background-color: #1f1f1f}
+.scroll img{width: 900px;height: 480px;position: absolute;margin-left: 50px;opacity: 0}
+.scroll .text{opacity: 1}
+.main-content1{;overflow: hidden;margin-top: 20px}
+.main-content1-div{width: 25%;float: left;margin-left: 65px}
+.main-content1-div img{width: 240px;height: 210px}
+.button1{width: 100px;height: 40px;background-color: #b0599a;color: #ffffff;text-align: center;line-height: 40px;margin: 20px 0}
+.button1:hover{background-color: #000000;transition: all 1s}
+.main-content2{overflow: hidden;margin-top: 20px}
+.main-content2-div1{float: left;width: 70%;margin-left: 20px}
+.main-content2-div1-left{float: left;width: 60%;margin-top: 20px}
+.main-content2-div1-left p{line-height: 20px;margin-bottom: 20px}
+.main-content2-div1-right{float: left;width: 30%;margin-top: 20px}
+.main-content2-div1-right li a{color: gray;line-height: 24px}
+.main-content2-div2{float: left;width: 25%}
+.main-content2-div2 h4{font-size: 25px}
+.main-content2-div2 li{overflow: hidden;margin-top: 20px}
+.main-content2-div2 li a{float: left;width: 43%}
+.main-content2-div2 li h3{margin-top: 10px}

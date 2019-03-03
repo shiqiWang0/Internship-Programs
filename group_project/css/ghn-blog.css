@@ -1,0 +1,12 @@
+.grid-wrap2,.grid-wrap3{display: none}
+.grids{overflow: hidden}
+.grid{width: 48%;float: left;padding: 0 10px}
+.grid img{width: 470px;height: 305px;margin-top: 20px}
+.grid-middle{overflow: hidden}
+.grid-middle p,.grid-middle h3{float: left;line-height: 30px}
+.grid-middle h3{margin-left: 20px}
+.grid-button{float: left;width: 100px;height: 40px;background-color: #b0599a;color: #ffffff;text-align: center;line-height: 40px;margin: 20px 0}
+.grid-button:hover{background-color: #000000;transition: all 1s}
+.main-nav{width: 500px;height: 60px;margin:20px auto;overflow: hidden}
+.main-nav li{float: left;background-color: #b0599a;color: #ffffff;padding: 10px 20px;margin: 0 3px}
+.main-nav li:hover{transition: all 1s;background-color: #000000}

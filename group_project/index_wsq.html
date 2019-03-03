@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>民谣</title>
+    <meta name="王诗淇" content="1836821120@qq.com"/>
+    <meta name="民谣" content=""/>
+    <meta name="keywords" content="民谣，音乐，展览"/>
+    <link rel="stylesheet" href="css/ghn-base.css"/>
+    <link rel="stylesheet" href="css/waq_base.css"/>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.themepunch.plugins.min.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+
+            jQuery('.tp-banner').revolution({
+
+                delay:5000,
+
+                startwidth:1200,
+
+                startheight:700,
+
+                hideThumbs:10,
+
+                fullWidth:"on",
+
+                forceFullWidth:"on",
+
+                onHoverStop:"on"
+
+            });
+
+        });
+
+        $(function(){
+            $(".button").click(function(){
+                if($(".line").eq(1).css("display")=="block"){
+                    $(".line").eq(0).css({"transform":"rotate(45deg) translateY(5px)"});
+                    $(".line").eq(1).css({"display":"none"});
+                    $(".line").eq(2).css({"transform":"rotate(-45deg) translateY(-5px)"});
+                    $(".list").fadeIn("fast");
+                }
+                else{
+                    $(".line").eq(0).css({"transform":""});
+                    $(".line").eq(1).css({"display":""});
+                    $(".line").eq(2).css({"transform":""});
+                    $(".list").fadeOut("fast");
+                }
+            })
+            $(".my_content>ul li").mouseenter(
+                    function () {
+                        $(this).stop(true,true).animate({rotateY:"180deg"},500,function(){
+                            $(this).find(".my_back").css({display:"block",rotateY:"180deg"})
+                        });
+                    }
+
+            )
+            $(".my_content>ul li ").mouseleave(
+                    function () {
+                        $(this).stop(true,true).animate({rotateY:"0deg"},500);
+                        $(this).find(".my_back").css({display:""})
+                    }
+
+            )
+        })
+    </script>
+</head>
+<body>
+<!--在这里添加外包，记得还要在自己CSS里面设置外包样式-->
+
+    <div class="my_header">
+        <div class="tp-banner-container">
+            <div class="tp-banner" id="black">
+                <ul>
+                    <!--<li data-transition="slotslide-vertical" data-slotamount="7" data-masterspeed="300" >-->
+                    <!--<img src="img/my_banner.jpg"  alt="darkblurbg"   data-fullwidthcentering="on">-->
+                    <!--</li>-->
+                    <li  data-transition="slotzoom-horizontal" data-slotamount="14"data-masterspeed="1000">
+                        <img src="img/my_banner.jpg" />
+                    </li>
+                    <li data-transition="boxslide" data-slotamount="7" data-masterspeed="1000" >
+                        <img src="img/my_banner.jpg"  alt="darkblurbg"   data-fullwidthcentering="on">
+                    </li>
+                    <li data-transition="slotzoom-horizontal" data-slotamount="7" data-masterspeed="1000" >
+                        <img src="img/my_banner.jpg"  alt="darkblurbg"   data-fullwidthcentering="on">
+                    </li>
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>
+        <div class="header" id="my_header_mini">
+            <div class="wrap">
+                <img src="img/logo.png" alt=""/>
+                <div class="nav">
+                    <ul class="list">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="index_wsq.html">民谣</a></li>
+                        <li><a href="teamwork/first.html">复古音乐</a></li>
+                        <li><a href="ghn-index.html">摇滚音乐</a></li>
+                        <li><a href="yjq-shouye.html">流行音乐</a></li>
+                        <li><a href="hbq/Home.html">俱乐部</a></li>
+                    </ul>
+                    <div class="button">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--在这里添加主体内容-->
+    <div class="my_content">
+        <img src="img/bg.jpg" alt=""/>
+         <ul>
+             <li>
+                 <a href="#"><img src="img/chenli.jpg" alt=""/></a>
+                 <div class="my_back">
+                     <h3>陈粒</h3>
+                     <p>陈粒，又名粒粒，1990年7月26日出生于贵州省贵阳市，中国内地民谣女歌手、独立音乐人、唱作人，前空想家乐队主唱，毕业于上海对外经贸大学。</p>
+                 </div>
+             </li>
+             <li><a href="#"><img src="img/zhaolei.jpg" alt=""/></a>
+                 <div class="my_back">
+                     <h3>赵雷</h3>
+                     <p>赵雷，1986年7月20日生于北京，中国内地民谣歌手、音乐人。
+                         2011年，赵雷发行个人第一张唱片《赵小雷》，专辑收录的主打歌曲《南方姑娘》被众多歌手及乐迷翻唱</p>
+                 </div>
+             </li>
+             <li><a href="#"><img src="img/tchenhongyu.jpg" alt=""/></a>
+                 <div class="my_back">
+                     <h3>陈鸿宇</h3>
+                     <p>陈鸿宇，1989年1月18日出生于内蒙古呼伦贝尔市额尔古纳市，中国内地民谣男歌手，毕业于内蒙古师范大学新闻采编与制作专业。</p>
+                 </div>
+             </li>
+             <li><a href="#"><img src="img/huazhou.jpg" alt=""/></a>
+                 <div class="my_back">
+                     <h3>花粥</h3>
+                     <p>花粥，1993年7月21日出生在新疆乌鲁木齐，中国内地民谣女歌手、独立音乐人。《盗将行》</p>
+                 </div>
+             </li>
+         </ul>
+        <div class="wrap">
+            <div class="my_main">
+                <h1>Are you ready with 民谣 ?</h1>
+                <div class="my_text">
+                    <div class="my_left">
+                        <h2>民谣歌手</h2>
+                        <ul>
+                            <li>
+                                <img src="img/chenli1.jpg" alt="chenli"/>
+                                <p>
+                                    2012年，其所在乐队“空想家乐队”获得“Zippo炙热摇滚大赛”上海赛区冠军。2014年，随空想家乐队推出乐队首张EP专辑《万象》；同年，其演唱的歌曲《奇妙能力歌》入围“第四届阿比鹿音乐奖”年度民谣单曲。2015年，推出首张个人音乐专辑《如也》；同年，推出个人民谣单曲《远辰》。2016年1月，获得“第五届阿比鹿音乐奖”最受欢迎音乐人（民谣）；同年3月8日，化身“粒粒”并推出首支单曲《幻期颐》；同年7月26日，推出第二张个人音乐专辑《小梦大半》。
+                                    <p><a href="about_chenli.html">Read More</a></p>
+                                </p>
+
+                            </li>
+                            <li>
+                                <img src="img/chenhongy2.jpg" alt="chenhongyu"/>
+                                <p>推出个人单曲《行歌》、《理想三旬》。2016年3月1日，推出首张个人音乐专辑《浓烟下的诗歌电台》;之后，与马雨阳举行"折腾"全国Live House搭车巡演 ;同年4月，凭借专辑《浓烟下的诗歌电台》入围"华语音乐传媒大奖"春季选优秀专辑奖 。2017年3月6日，推出第二张个人音乐专辑《一如年少模样》 ;同年，获得首届唱工委CMA音乐颁奖盛典年度最佳新人奖 。
+                                <p><a href="about_chy.html">Read More</a></p>
+                                </p>
+
+                            </li>
+                            <li>
+                                <img src="img/huazhou2.jpg" alt="huazhou"/>
+                                <p>
+                                    2015年3月31日，发行个人首张专辑《乍见之欢》 ，并在合肥、南京等25个城市举办专辑首发巡回演出 ，凭借该专辑入围第五届阿比鹿音乐奖年度专辑、年度单曲及年度音乐人三项大奖 ;10月29日，发布青春爱情电影《既然青春留不住》主题曲《还好有你》的个人演唱版MV 。
+                                <p><a href="#">Read More</a></p>
+                                </p>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="my_right">
+                        <div class="my_title1">
+                            <h2>近期活动</h2>
+                            <ul>
+                                <li><a href="#">2018海口火山跨年音乐节</a><span>2018.12.31</span></li>
+                                <li><a href="#">厦门 简单生活节</a><span>2018.11.30</span></li>
+                                <li><a href="#">赵雷2495巡回演唱会 长沙站</a><span>2018.10.27</span></li>
+                                <li><a href="#">赵雷2495巡回演唱会 南京站</a><span>20.18.10.12</span></li>
+                                <li><a href="#">南京森林户外音乐节2017</a><span>2017.12.11</span></li>
+                                <li><a href="#">上海森林户外音乐节2017</a><span>2017.10.11</span></li>
+                                <li><a href="#">北京户外音乐节2017</a><span>2017.9.11</span></li>
+                            </ul>
+                        </div>
+                        <div class="my_title1 my_title2">
+                            <h2>音乐播放</h2>
+                            <ul>
+                                <li><span></span>理想三旬</li>
+                                <li><span></span>成都</li>
+                                <li><span></span>小半</li>
+                                <li><span></span>盗将行</li>
+                                <li><span></span>说书人</li>
+                                <li><span></span>南方姑娘</li>
+                                <li><span></span>董小姐</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="wrap">
+    <div class="footer">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <p>Copyright 2018 民谣</p>
+    </div>
+</div>
+</body>
+</html>

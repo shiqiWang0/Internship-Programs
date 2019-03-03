@@ -1,0 +1,13 @@
+.main-etc{overflow: hidden}
+.profile{width: 68%;float: left;overflow: hidden;padding: 5px}
+.profile-img{width: 35%;float: left}
+.profile-img img{width: 240px;height: 160px}
+.profile-content{width: 60%;float: left;margin-left: 20px}
+.profile-content-p{margin-top: 10px}
+.capabilities{width: 30%;float: left;margin: 0 5px}
+.capabilities>div{padding: 5px 0}
+.number{width: 48px;height: 48px;background-color: #b0599a;font-size: 32px;color: #ffffff;text-align: center;float: left;margin-right: 20px}
+.capabilities p{margin-left: 70px}
+.team{overflow: hidden}
+.team li{float: left;width: 22%;margin: 10px 10px}
+.team li img{width: 230px;height: 230px}

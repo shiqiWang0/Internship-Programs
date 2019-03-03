@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <META name="尹晓燕" content="webmaster@1339642248qq.com">
+    <META NAME="keywords" CONTENT="音乐，古典，乐器">
+    <title>音乐网站</title>
+    <link rel="stylesheet" href="../css/ghn-base.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script>
+        $(function() {
+            $(".button").click(function () {
+                if ($(".line").eq(1).css("display") == "block") {
+                    $(".line").eq(0).css({"transform": "rotate(45deg) translateY(5px)"});
+                    $(".line").eq(1).css({"display": "none"});
+                    $(".line").eq(2).css({"transform": "rotate(-45deg) translateY(-5px)"});
+                    $(".list").fadeIn("fast");
+                }
+                else {
+                    $(".line").eq(0).css({"transform": ""});
+                    $(".line").eq(1).css({"display": ""});
+                    $(".line").eq(2).css({"transform": ""});
+                    $(".list").fadeOut("fast");
+                }
+            });
+            $(".third_main_wrap .third_main_right .list1>li").click(function () {
+                $(" .list2").slideUp(1000);
+                $(this).siblings().find(".list2").slideUp(500);
+                $(this).find(".list2").slideToggle(500);
+            });
+        })
+
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <img class="logo" src="../img/logo.png" alt=""/>
+        <div class="nav">
+            <ul class="list">
+                <li><a href="">首页</a></li>
+                <li><a href="../index_wsq.html">民谣</a></li>
+                <li><a href="first.html">复古音乐</a></li>
+                <li><a href="../ghn-index.html">摇滚音乐</a></li>
+                <li><a href="../yjq-shouye.html">流行音乐</a></li>
+                <li><a href="../ghn-contact.html">联系</a></li>
+            </ul>
+            <div class="button">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="third_main">
+        <div class="third_main_wrap">
+        <div class="third_main_left">
+            <a href="#" class="lei">专辑</a>
+        <ul>
+            <li><img src="../img/pic_people1.jpg"></li>
+            <li>
+                <h2 class="font">Lady Gaga——迪斯科天堂</h2>
+                <p>我们很高兴欢迎您在我们的商店。我们很高兴欢迎您在我们的商店。</p>
+                <p>选择我们的商店。你做了一个正确的决定,选择我们的商店。我们公司将会给…</p>
+                <h2 class="font2">$30.00</h2>
+                <a href="forth.html">点击购买</a>
+            </li>
+        </ul>
+        <ul>
+            <li><img src="../img/pic_people2.jpg"></li>
+            <li>
+                <h2 class="font">特雷Songz——准备好了</h2>
+                <p>我们很高兴欢迎您在我们的商店。我们很高兴欢迎您在我们的商店。</p>
+                <p>选择我们的商店。你做了一个正确的决定,选择我们的商店。我们公司将会给…</p>
+                <h2 class="font2">$30.00</h2>
+                <a href="#">点击购买</a>
+            </li>
+        </ul>
+        <ul>
+            <li><img src="../img/pic_people3.jpg"></li>
+            <li>
+                <h2 class="font">特雷Songz——准备好了</h2>
+                <p>我们很高兴欢迎您在我们的商店。我们很高兴欢迎您在我们的商店。</p>
+                <p>选择我们的商店。你做了一个正确的决定,选择我们的商店。我们公司将会给…</p>
+                <h2 class="font2">$30.00</h2>
+                <a href="#">点击购买</a>
+            </li>
+        </ul>
+        <ul>
+            <li><img src="../img/pic_people4.jpg"></li>
+            <li>
+                <h2 class="font">特雷Songz——准备好了</h2>
+                <p>我们很高兴欢迎您在我们的商店。我们很高兴欢迎您在我们的商店。</p>
+                <p>选择我们的商店。你做了一个正确的决定,选择我们的商店。我们公司将会给…</p>
+                <h2 class="font2">$30.00</h2>
+                <a href="#">点击购买</a>
+            </li>
+        </ul>
+        </div>
+        <div class="third_main_right">
+            <a href="#"  class="lei">类别</a>
+            <ul class="list1">
+                <li>
+                    <a href="#">另类摇滚</a>
+                    <ul class="list2">
+                        <li><a href="#">古典音乐</a></li>
+                        <li><a href="#">框设置</a></li>
+                        <li><a href="#">民间</a></li>
+                        <li><a href="#">Alubums</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">独立音乐</a>
+                    <ul class="list2">
+                        <li><a href="#">视频</a></li>
+                        <li><a href="#">歌曲</a></li>
+                        <li><a href="#">生活的视频</a></li>
+                    </ul>
+                </li>
+            </ul>
+             <ul class="list3">
+                <li><a href="forth.html">颞部pretium</a></li>
+                <li><a href="#">Dignissim neque</a></li>
+                <li><a href="#">Ornared id aliquet</a></li>
+                <li><a href="#">孩子们的音乐</a></li>
+                <li><a href="#">重摇滚和金属</a></li>
+                <li><a href="#">Eiusmod时间</a></li>
+                <li><a href="#">一只慧眼ac tortor sc</a></li>
+                <li><a href="#">硬摇滚和金属</a></li>
+                <li><a href="#">国家</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <div>
+                <img src="../img/pic_right2.jpg">
+                <p>$300</p>
+                <h3>Lorem ipsum悲哀</h3>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <p>Copyright 2018 音乐展览模板</p>
+    </div>
+</div>
+</body>
+</html>

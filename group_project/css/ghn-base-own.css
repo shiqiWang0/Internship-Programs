@@ -1,0 +1,41 @@
+*{padding: 0;margin: 0}
+a{text-decoration: none}
+ul{list-style-type: none}
+body{background-image: url("../img/body_bg.png")}
+h1{color: #ffffff;text-align: center;font-size: 42px}
+h2{color: gray;font-size: 32px;padding: 20px}
+h3 a{color: #b0599a;font-size: 16px;font-weight: 400}
+h3 a:hover{color: #ffffff;transition: all 1s}
+h4{color: #b0599a;font-size: 32px}
+h4 a{color: #b0599a;font-size: 16px}
+h4 a:hover{color: #ffffff;transition: all 1s}
+h5{color: #ffffff;font-size: 24px;font-weight: 400}
+h5 a{color: #ffffff;font-size: 24px;font-weight: 400}
+h5 a:hover{color: #b0599a;transition: all 1s}
+p{color: gray;font-size: 14px;line-height: 17px}
+.wrap{width: 1000px;margin: 0 auto;overflow: hidden}
+.header{width: 1000px;background-color: #1f1f1f;margin-bottom: 20px}
+.list a{color: #ffffff}
+.main{background-color: #1f1f1f}
+.footer-own{background-color: #1f1f1f;overflow: hidden;margin-top: 20px}
+.footer-left,.footer-center,.footer-right{width:300px;margin: 0 10px;float: left}
+.footer-left{color: gray}
+.footer-left a{color: #b0599a}
+.footer-left p{margin: 10px 0}
+.footer-left div{width: 20px;height: 20px;background-image: url("../img/img-sprite.png")}
+.left-media1{background-position: -9px -57px;float: left}
+.left-media2{background-position: -33px -56px;float: left}
+.left-media3{background-position: -56px -55px;float: left}
+.box li{display: inline-block;width: 30%;padding: 3px}
+.box img{width: 100%;border: solid 1px #ffffff}
+.footer-right{position: relative}
+#right-media{float: none;position: absolute;left: 20px}
+#right-media li{width: 40px;height: 40px;background-image: url("../img/img-sprite.png");margin-left: 10px}
+#right-media li:nth-child(1){background-position: -8px -10px;float: left}
+#right-media li:nth-child(2){background-position: -107px -10px;float: left}
+#right-media li:nth-child(3){background-position: -202px -10px;float: left}
+#right-media li:nth-child(4){background-position: -298px -10px;float: left}
+#right-media li:nth-child(1):hover{background-position: -57px -10px;float: left}
+#right-media li:nth-child(2):hover{background-position: -155px -10px;float: left}
+#right-media li:nth-child(3):hover{background-position: -250px -10px;float: left}
+#right-media li:nth-child(4):hover{background-position: -345px -10px;float: left}
